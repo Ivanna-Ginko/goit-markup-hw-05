@@ -660,6 +660,7 @@ color: #ffffff;
 position: absolute;
 top: 50%;
 left: 50%;
+transform: translate(-50%, -50%);
 background-color: #FCFCFC;
 border-radius: 4px;
 width: 408px;
@@ -823,11 +824,11 @@ letter-spacing: 0.04em;
 color: #2E2F42;
 }
 
-.modal-field:hover .modal-textarea {
+.modal-field-comment:hover .modal-textarea {
 border-color: #4D5AE5; 
 }
 
-.modal-field:focus .modal-textarea {
+.modal-field-comment:focus .modal-textarea {
 border-color: #4D5AE5;
 }
 
@@ -863,6 +864,9 @@ border-color: #4D5AE5;
   border-radius: 2px; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
+  align-items: center;
+  justify-content: center; 
+  fill: transparent;
 }
 
 .modal-check:checked + .modal-check-text span{
