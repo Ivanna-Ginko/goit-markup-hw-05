@@ -536,7 +536,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
-max-width: 264px;ы
+max-width: 264px;
 }
 
 .footer-item-icons {
@@ -587,11 +587,11 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 margin-top: 16px;
 }
 
-.input-box-footer {
-  
-}
-
 .footer-btn {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
   position: relative;
   border-radius: 4px;
   padding: 8px 24px;
@@ -601,7 +601,6 @@ margin-top: 16px;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  text-align: center;
   color: #FFFFFF;
   background-color: #4D5AE5;
   cursor: pointer;
@@ -611,11 +610,6 @@ margin-top: 16px;
   fill: #FFFFFF;
   background-color: transparent;
 }
-
-
-
-
-
 
 /*------modal-----------------*/
 
